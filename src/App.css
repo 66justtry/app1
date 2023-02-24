@@ -38,6 +38,66 @@
   }
 }
 
-.q {
-  color: red;
+.all {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hdr {
+  width: 60%;
+  height: 150px;
+  border: 1px solid red;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 1px solid blue;
+  width: 60%;
+}
+
+.nav {
+  width: 25%;
+  border: 1px solid green;
+}
+
+.body {
+  width: 75%;
+  padding: 20px;
+}
+
+.nav ul {
+  list-style: none;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.nav ul li {
+  margin: 10px;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: blue;
+}
+
+.nav ul li a:visited {
+  color: blue;
+}
+
+.profileInfo {
+  display: flex;
+}
+
+.profileInfo img {
+  height: 100px;
+  width: 100px;
+}
+
+.profileInfo div {
+  border: 1px solid yellow;
+  width: 70%;
+  padding: 20px;
 }
